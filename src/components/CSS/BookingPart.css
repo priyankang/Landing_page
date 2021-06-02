@@ -1,0 +1,93 @@
+.booking {
+  width: 100%;
+  display: flex;
+}
+.Carousel {
+  right: 0;
+  z-index: 999;
+  
+}
+
+.submit-form {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0px;
+  background: rgb(31, 150, 219);
+  color: white;
+  padding: 20px;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+.text > h3 {
+    font-size: 33px;
+}
+
+.text > p {
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+
+.amount {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.amount:hover {
+    transform: scale(0.88);
+}
+.booking_img{
+  height: 70px;
+  
+}
+.input-container input[type=text] {
+  border-radius: 0;
+  color: #000;
+  border: 0;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.get_in{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+.formbtn{
+  display: flex;
+  justify-content: space-between;
+}
+.formbtn input[type=button] {
+  width: 30%;
+  border-radius: 0;
+  color: #000;
+  border: 0;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 14px;
+  background: #f3f1ee;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.formbtn b a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
